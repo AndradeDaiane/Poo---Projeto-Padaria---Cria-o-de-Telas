@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="EstoquePrincipal">
+  <grid id="27dc6" binding="panel4" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-591620"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d2ad7" class="javax.swing.JLabel" binding="JLabelEstoque">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Consolas" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Cadastro de Estoque"/>
+        </properties>
+      </component>
+      <component id="aef72" class="javax.swing.JTextField" binding="JTextQT">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3881271"/>
+          <foreground color="-7170920"/>
+          <text value="Quatidade de Produto"/>
+        </properties>
+      </component>
+      <component id="bd81a" class="javax.swing.JTextField" binding="JTextFornecedor">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3881271"/>
+          <foreground color="-7170920"/>
+          <text value="Fornecedor"/>
+        </properties>
+      </component>
+      <component id="280f5" class="javax.swing.JTextField" binding="JTextValidade">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3881271"/>
+          <foreground color="-7170920"/>
+          <text value="Validade do Produto"/>
+        </properties>
+      </component>
+      <component id="c2a39" class="javax.swing.JTextField" binding="JTextPreço">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3881271"/>
+          <foreground color="-7170920"/>
+          <text value="Preço do Produto"/>
+        </properties>
+      </component>
+      <component id="e2ca4" class="javax.swing.JTextField" binding="JTextMarca">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3881271"/>
+          <foreground color="-7170920"/>
+          <text value="Marca do Produto"/>
+        </properties>
+      </component>
+      <component id="c8c7c" class="javax.swing.JButton" binding="JButtonS3">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Sair"/>
+        </properties>
+      </component>
+      <component id="8a311" class="javax.swing.JButton" binding="JButtonG4">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Salvar"/>
+        </properties>
+      </component>
+      <component id="774b0" class="javax.swing.JTextField" binding="JTextTP">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3881271"/>
+          <editable value="true"/>
+          <enabled value="true"/>
+          <foreground color="-7170920"/>
+          <text value="Tipo de Produto"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Padaria">
+  <grid id="27dc6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="94b6a" binding="Panelprincipal" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="c12f1" class="javax.swing.JMenuBar" binding="JMB" layout-manager="GridLayoutManager" row-count="1" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="7a1" class="javax.swing.JMenu" binding="JM1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Cliente"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="369a5" class="javax.swing.JMenuItem" binding="JMI1">
+                    <constraints/>
+                    <properties>
+                      <text value="Cadastrar Cliente"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="aa43e" class="javax.swing.JMenu" binding="JM2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Fornecedor"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="a4251" class="javax.swing.JMenuItem" binding="JMI2">
+                    <constraints/>
+                    <properties>
+                      <text value="Cadastrar Empresa"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="e76a5" class="javax.swing.JMenu" binding="JM3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Funcionario"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="dd331" class="javax.swing.JMenuItem" binding="JMI3">
+                    <constraints/>
+                    <properties>
+                      <text value="Cadastrar Funcionario"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="cba3f" class="javax.swing.JMenu" binding="JM4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Estoque"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="c3936" class="javax.swing.JMenuItem" binding="JMI4">
+                    <constraints/>
+                    <properties>
+                      <text value="Cadastrar Produto "/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="f193d" class="javax.swing.JMenu" binding="JM5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Maquinario"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="33592" class="javax.swing.JMenuItem" binding="JMI5">
+                    <constraints/>
+                    <properties>
+                      <text value="Cadastrar Equipamento"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="b97df" class="javax.swing.JMenu" binding="JM6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Sair"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="7fef3" class="javax.swing.JMenuItem" binding="JMI6">
+                    <constraints/>
+                    <properties>
+                      <text value="Sair"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
